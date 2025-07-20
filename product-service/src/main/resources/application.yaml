@@ -6,7 +6,7 @@ spring:
     name: product-service
   data:
     mongodb:
-      uri: mongodb+srv://namastedev:welcome123@namastenode.f1shygs.mongodb.net/productdb
+      uri: ${MONGODB_URI}
   kafka:
     bootstrap-servers: localhost:9092
     producer:
